@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Projects</title>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      html,
+      body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+      .full-height {
+        height: 90%;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">My Portfolio</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html#hero">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="project.html">Projects</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Projects Section -->
+    <div class="d-flex justify-content-center align-items-center full-height">
+      <section id="projects" class="py-5">
+        <div class="container">
+          <h2 class="text-center">Projects</h2>
+          <div class="row">
+            <div class="col-md-4">
+              <div class="card mb-4">
+                <a href="https://github.com/" target="_blank">
+                  <img
+                    src="project1.jpg"
+                    class="card-img-top img-fluid"
+                    alt="Project 1"
+                    style="object-fit: cover; height: 200px"
+                  />
+                </a>
+                <div class="card-body">
+                  <h5 class="card-title">Movie Recommendation</h5>
+                  <p class="card-text">Movie Recommendation using ReactJS</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-4">
+                <a href="https://github.com/" target="_blank">
+                  <img
+                    src="project2.jpg"
+                    class="card-img-top img-fluid"
+                    alt="Project 2"
+                    style="object-fit: cover; height: 200px"
+                  />
+                </a>
+                <div class="card-body">
+                  <h5 class="card-title">EDA</h5>
+                  <p class="card-text">Sales Data Analysis using Pandas</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-4">
+                <a href="https://github.com/" target="_blank">
+                  <img
+                    src="project3.jpg"
+                    class="card-img-top img-fluid"
+                    alt="Project 3"
+                    style="object-fit: cover; height: 200px"
+                  />
+                </a>
+                <div class="card-body">
+                  <h5 class="card-title">Robotics Competition</h5>
+                  <p class="card-text">Arduino and Deep Learning</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- Footer -->
+    <footer
+      class="bg-dark text-white text-center py-3"
+      style="position: fixed; bottom: 0; width: 100%"
+    >
+      <p>&copy; 2024 My Portfolio. All rights reserved.</p>
+    </footer>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>
